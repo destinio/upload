@@ -1,0 +1,194 @@
+
+/* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+	@import url(http://fonts.googleapis.com/css?family=Denk+One);
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+	.full-width {
+			width: 100%;
+	}
+
+	body {
+	    background: #000;
+	    color:#FFF;
+	}
+
+	.upload {
+		background:	#db1520 ;
+	}
+
+	.crossload {
+		background: #434343;
+	}
+
+	.header {
+		background: #18b3dd;
+		height: 150px;
+
+	}
+
+	.title {
+		font-family: 'Denk One', sans-serif;
+		font-size: 7em;
+		color:#FFF;
+		margin-top: 60px;
+		text-align: center;
+		text-shadow: 0 1px 0 #ccc,
+		0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0,.1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0,.2),
+		0 20px 20px rgba(0,0,0,.15);
+	}
+
+	.file::-webkit-file-upload-button {
+	  visibility: hidden;
+	}
+	.file::before {
+	  content: 'Choose File';
+	  display: inline-block;
+	  width:60%;
+	  text-align: center;
+	  background: #FFF;
+	  border-radius: 0px;
+	  padding: 5px 8px;
+	  outline: none;
+	  white-space: nowrap;
+	  -webkit-user-select: none;
+	  cursor: pointer;
+	  font-size:1.5em;
+	}
+	
+	.file:active::before {
+	  background: #fff;
+	}
+
+
+
+
+	/* OLD*/
+
+
+
+	.url {
+	    color:red;
+	}
+
+	
+
+	/* #### Dark Matter #### */
+	.dark-matter {
+	    width: 75%;
+	    margin: auto;
+	    padding: 20px 30px 20px 30px;
+
+	    color: #888;
+	    border:none;
+	    border-radius: 0px;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	}
+
+	.dark-matter input[type="text"],
+	 .dark-matter input[type="email"],
+	  .dark-matter textarea,
+	   .dark-matter select{
+	   	text-align: center;
+	    border: none;
+	    color: #4B4B4B;
+	    height: 35px;
+	    margin-bottom: 16px;
+	    margin-right: 6px;
+	    margin-top: 2px;
+	    outline: 0 none;
+	    padding: 6px 12px;
+	    width: 100%;
+	    border-radius: 0px;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    font: normal 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.dark-matter select {
+	    background: #FFF url('down-arrow.png') no-repeat right;
+	    background: #FFF url('down-arrow.png') no-repeat right);
+	    appearance:none;
+	    -webkit-appearance:none; 
+	    -moz-appearance: none;
+	    text-indent: 0.01px;
+	    text-overflow: '';
+	    width: 72%;
+	    height: 30px;
+	}
+	.dark-matter textarea{
+	    height:100px;
+	}
+	.dark-matter .button {
+	    background: #FFF;
+	    border: none;
+	    padding: 10px 25px 10px 25px;
+	    color: #333;
+	    border-radius: 0px;
+	}
+
+	#fileShow {
+    	display:none;
+	}​
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
