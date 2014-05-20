@@ -43,16 +43,20 @@
     <div class="header full-width">
         <div class="container">
             <div class="sixteen columns">
-            <div class="title">
-                des.li
-            </div>
-            </div>
+                <div class="title">
+                    i.des.li
+                </div>
+                <div class='sub-title'>
+                    wow what an amazing image uploader
+                </div>
+                </div>
         </div>
     </div>
 
-    <div class="upload full-width">
+    <div class="upload section full-width">
         <div class="container">
             <div class="sixteen columns">
+                <h1>Local file upload</h1>
                 <form action="upload_file.php" method="post" enctype="multipart/form-data" class="dark-matter">
                     <label>
                         <input type="text" name="text" id="text" placeholder="new file name..."><br />
@@ -68,9 +72,10 @@
         </div>
     </div>
 
-    <div class="crossload full-width">
+    <div class="crossload section full-width">
         <div class="container">
             <div class="sixteen columns">
+                <h1>cross url upload</h1>
                 <form action="cross_upload_file.php" method="post" enctype="multipart/form-data" class="dark-matter">
                     <label>
                         <input type="text" name="text" id="text" placeholder="new file name..."><br />

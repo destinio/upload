@@ -25,21 +25,37 @@
 	}
 
 	body {
-	    background: #000;
+	    background: #1ca4d5;
 	    color:#FFF;
+	    font-family: 'Denk One', sans-serif;
+	}
+
+	.section {
+		height: 400px;
+		text-align: center;
+
+	}
+
+	.section h1 {
+		font-family: 'Denk One', sans-serif;
+		color:#FFF;
+		font-size: 2em;
+		margin-top: 60px;
+		
+
 	}
 
 	.upload {
-		background:	#db1520 ;
+		background:	#FF6633 ;
 	}
 
 	.crossload {
-		background: #434343;
+		background: #009999;
 	}
 
 	.header {
-		background: #18b3dd;
-		height: 150px;
+		background: #3366CC;
+		height: 200px;
 
 	}
 
@@ -63,13 +79,18 @@
 		0 20px 20px rgba(0,0,0,.15);
 	}
 
+	.sub-title {
+		text-align: center;
+		margin-top: 60px;
+	}
+
 	.file::-webkit-file-upload-button {
 	  visibility: hidden;
 	}
 	.file::before {
 	  content: 'Choose File';
 	  display: inline-block;
-	  width:60%;
+	  width:100%;
 	  text-align: center;
 	  background: #FFF;
 	  border-radius: 0px;
@@ -78,6 +99,7 @@
 	  white-space: nowrap;
 	  -webkit-user-select: none;
 	  cursor: pointer;
+	  font-family: 'Denk One', sans-serif;
 	  font-size:1.5em;
 	}
 	
@@ -102,6 +124,7 @@
 	.dark-matter {
 	    width: 75%;
 	    margin: auto;
+	    margin-top: 10px;
 	    padding: 20px 30px 20px 30px;
 
 	    color: #888;
@@ -128,7 +151,8 @@
 	    border-radius: 0px;
 	    -webkit-border-radius: 0px;
 	    -moz-border-radius: 0px;
-	    font: normal 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    font-family: 'Denk One', sans-serif;
+	    font-size: 1.5em;
 	}
 
 	.dark-matter select {
@@ -147,6 +171,7 @@
 	}
 	.dark-matter .button {
 	    background: #FFF;
+	    font-family: 'Denk One', sans-serif;
 	    border: none;
 	    padding: 10px 25px 10px 25px;
 	    color: #333;
